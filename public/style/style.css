@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(90deg, #b265e6, #9e28ed);
+}
+
+.form__container {
+  max-width: 500px;
+  margin: 30px auto 30px;
+}
+
+.form {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form__input {
+  height: 30px;
+  max-width: 300px;
+  overflow: auto;
+  margin: 10px;
+  padding: 10px;
+}
+
+.form__email {
+  margin-top: 30px;
+}
+
+.form__checker {
+  display: flex;
+  align-items: center;
+}
+
+.form__checker-checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.form__button {
+  color: #ffffff;
+  background-color: #9e28ed;
+  width: 100px;
+  height: 30px;
+  margin: 10px auto 20px;
+}/*# sourceMappingURL=style.css.map */
